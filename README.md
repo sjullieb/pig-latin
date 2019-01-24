@@ -6,12 +6,24 @@
 
 ## Description
 
-_A simple web app that uses behavior-driven development to take input from a form and determine if the date provided falls on a leap year. It uses the following specifications:
+_A simple web app that uses behavior-driven development to take input from a form and determine if the date provided falls on a leap year. It uses the following specifications:_
 
-* The program should return when a year is not a leap year;
-* The program should return 'true' if the year is evenly divisible by 4;
-* The program should return 'false' for years divisible by 100;
-* The program should return 'true' for years divisible by 400._
+* _The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels;_
+  - Example Input: 3
+  - Example Output: 3
+* _The program adds "way" to words beginning and ending with a vowel;_
+  - Example Input: "i"
+  - Example Output: "iway"
+* _The program adds "ay" to the end of multi-character words starting with a vowel and ending with a consonant;_
+  - Example Input: "eat"
+  - Example Output: "eatay"
+* _The program moves all of the first consecutive consonants, including "y" if it is the first letter of the word, to the end of words that begin with one or more consonants, and adds "ay" to the end;_
+  - Example Input: "stack"
+  - Example Output: "ackstay"
+* _OR if "y" is the first letter in a word, then it is recognized as a consonant and adds "ay" to the end_
+* _The program moves the "u" along with the first consecutive consonants if it immediately follows a "q";_
+  - Example Input: "squeal"
+  - Example Output: "ealsquway"
 
 ## Setup/Installation Requirements
 
