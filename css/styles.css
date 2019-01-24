@@ -1,3 +1,11 @@
 #result {
   display: none;
 }
+
+body {
+  text-align: center;
+}
+
+input{
+  width: 70%;
+}
