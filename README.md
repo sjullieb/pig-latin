@@ -1,12 +1,12 @@
-# _Leap Year HW_
+# _Pig Latin Translator_
 
-#### _A simple web application that allows a user to input a number and determine if that number equates to a date that is a leap year, Created 1/24/2019_
+#### _A simple web application that translates a sentence in Pig Latin, Created 1/24/2019_
 
 #### By _**Maddy Haldeman & Yulia Shidlovskaya**_
 
 ## Description
 
-_A simple web app that uses behavior-driven development to take input from a form and determine if the date provided falls on a leap year. It uses the following specifications:_
+_A simple web app that uses behavior-driven development to take input from a form and translates it to Pig Latin language. It uses the following specifications:_
 
 * _The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels;_
   - Example Input: 3
